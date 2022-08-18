@@ -14,13 +14,13 @@ from time import sleep
 sleep(10)
 username_input = driver.find_element_by_name("username")
 username_input.click()
-username_input.send_keys('juniomiguelsizeg@gmail.com')
+username_input.send_keys('')
 
 sleep(2)
 
 pwd_input = driver.find_element_by_name('password')
 pwd_input.click()
-pwd_input.send_keys('mj104598')
+pwd_input.send_keys('')
 
 
 submit_btn = driver.find_elements_by_class_name("qF0y9Igw0EIwRSHeGOV_acqo5_4EzTm")
